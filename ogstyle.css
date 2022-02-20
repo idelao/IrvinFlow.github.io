@@ -1,0 +1,153 @@
+body {
+  background-color: #]LightGrey;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "head head head"
+                       "nav main aside"
+                       "foot foot foot";
+  grid-gap: .75em;
+  width: 100vw;
+  height: 100vh;
+}
+/* Header Color - Home Page */
+header{
+  grid-area: head;
+  background-color: LightGrey;
+
+}
+
+h2{
+  text-align: center;
+  border: 2px solid black;
+}
+/* Home Page */
+#banner {
+  background-image: url("bgpic2.jpeg");
+  opacity: 1.5;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+/* Text-box Banner */
+#banner .content h1 {
+  border: 3px solid black;
+  position: relative;
+  top: 40px;
+  width: 470px;
+  margin: 0 auto;
+}
+/* BG Top Buttons*/
+.link {
+  border: 3px solid Black;
+  padding: 0px 3px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+/* Top Buttons*/
+.link a {
+  background: #003399;
+  border: 1px solid #003399;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+}
+
+.link a:hover {
+  background: LightGrey;
+  border: 1px solid #000000;
+  color: #000000;
+}
+/* Left Side */
+nav{
+  background-color: LightGrey;
+  border: 3px solid Black;
+  opacity: 0.7;
+  grid-area: nav;
+}
+/* Text */
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+  grid-area: main;
+  border-radius: 15px;
+  border: 1px
+  color: blue;
+}
+
+/* Text-box color */
+h1 {
+  color: black;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Right Side */
+aside{
+  background-color: LightGrey;
+  border:3px solid Black;
+  opacity: 0.7;
+  height: 400px;
+  grid-area: aside;
+}
+/* Footer */
+footer{
+  grid-area: foot;
+  position: relative;
+  background-color: LightGrey
+}
+
+/* Contact Info Page*/
+
+.navigation ul {
+  margin: 5;
+  padding: 0;
+  text-align: center;
+}
+/* Contact Info Text */
+.navigation li {
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000000
+
+}
+/* About Me Image */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 20px;
+}
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+/* Text Color - Home Page */
+p, h2 {
+  color: #000000;
+}
